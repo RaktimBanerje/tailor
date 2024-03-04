@@ -1,0 +1,795 @@
+@font-face {
+  font-family: 'suit-icon';
+  src:  url('../fonts/suit-icon/suit-icon.eot');
+  src:  url('../fonts/suit-icon/suit-icon.eot') format('embedded-opentype'),
+    url('../fonts/suit-icon/suit-icon.ttf') format('truetype'),
+    url('../fonts/suit-icon/suit-icon.woff') format('woff'),
+    url('../fonts/suit-icon/suit-icon.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="suit-icon-"], [class*=" suit-icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'suit-icon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.suit-icon-access:before {
+  content: "\e900";
+}
+.suit-icon-sleeve_lapel:before {
+  content: "\e901";
+}
+.suit-icon-no_pleats:before {
+  content: "\e902";
+}
+.suit-icon-buttoned:before {
+  content: "\e903";
+}
+.suit-icon-buttoned1:before {
+  content: "\e904";
+}
+.suit-icon-buttoned2:before {
+  content: "\e905";
+}
+.suit-icon-fold_quer_tie-01_style_1:before {
+  content: "\e906";
+}
+.suit-icon-fold_straight_tie-01_style2:before {
+  content: "\e907";
+}
+.suit-icon-functional-buttons:before {
+  content: "\e908";
+}
+.suit-icon-kissing-buttons:before {
+  content: "\e909";
+}
+.suit-icon-working-buttons:before {
+  content: "\e90a";
+}
+.suit-icon-buttoned3:before {
+  content: "\e90b";
+}
+.suit-icon-functional-buttons1:before {
+  content: "\e90c";
+}
+.suit-icon-kissing-buttons1:before {
+  content: "\e90d";
+}
+.suit-icon-working-buttons1:before {
+  content: "\e90e";
+}
+.suit-icon-functional-buttons2:before {
+  content: "\e90f";
+}
+.suit-icon-kissing-buttons2:before {
+  content: "\e910";
+}
+.suit-icon-working-buttons2:before {
+  content: "\e911";
+}
+.suit-icon-Add_Monogram:before {
+  content: "\e912";
+}
+.suit-icon-All:before {
+  content: "\e913";
+}
+.suit-icon-Back:before {
+  content: "\e914";
+}
+.suit-icon-Basic:before {
+  content: "\e915";
+}
+.suit-icon-bottom-01:before {
+  content: "\e916";
+}
+.suit-icon-Bottom_Main_Icon:before {
+  content: "\e917";
+}
+.suit-icon-Bottom_Rounded:before {
+  content: "\e918";
+}
+.suit-icon-Bottom_Slightly_Rounded:before {
+  content: "\e919";
+}
+.suit-icon-Bottom_Straight:before {
+  content: "\e91a";
+}
+.suit-icon-bow-01:before {
+  content: "\e91b";
+}
+.suit-icon-bow-01_style1:before {
+  content: "\e91c";
+}
+.suit-icon-bow_t_standard-01_style2:before {
+  content: "\e91d";
+}
+.suit-icon-Brass_Buttons:before {
+  content: "\e91e";
+}
+.suit-icon-Brestpocket_Main_Icon:before {
+  content: "\e91f";
+}
+.suit-icon-button2:before {
+  content: "\e920";
+}
+.suit-icon-button3:before {
+  content: "\e921";
+}
+.suit-icon-button4:before {
+  content: "\e922";
+}
+.suit-icon-Button:before {
+  content: "\e923";
+}
+.suit-icon-By_Default:before {
+  content: "\e924";
+}
+.suit-icon-Casual_Style:before {
+  content: "\e925";
+}
+.suit-icon-Center_Vents:before {
+  content: "\e926";
+}
+.suit-icon-Cuffs:before {
+  content: "\e927";
+}
+.suit-icon-Custom_Color:before {
+  content: "\e928";
+}
+.suit-icon-Custom_Colour:before {
+  content: "\e929";
+}
+.suit-icon-Diffrent_Fabrics:before {
+  content: "\e92a";
+}
+.suit-icon-Double_Breasted_2_Buttons:before {
+  content: "\e92b";
+}
+.suit-icon-Double_Breasted_4_Buttons:before {
+  content: "\e92c";
+}
+.suit-icon-Double_Breasted_4X1_Buttons:before {
+  content: "\e92d";
+}
+.suit-icon-Double_Breasted_6_Buttons:before {
+  content: "\e92e";
+}
+.suit-icon-Double_Breasted_6x1_Buttons:before {
+  content: "\e92f";
+}
+.suit-icon-double-pocket-left-01:before {
+  content: "\e930";
+}
+.suit-icon-double-pocket-right-01:before {
+  content: "\e931";
+}
+.suit-icon-Double_Welted:before {
+  content: "\e932";
+}
+.suit-icon-Double_Welted_Slanted:before {
+  content: "\e933";
+}
+.suit-icon-ElbowPatch_Main_Icon:before {
+  content: "\e934";
+}
+.suit-icon-Faves:before {
+  content: "\e935";
+}
+.suit-icon-Filter:before {
+  content: "\e936";
+}
+.suit-icon-Fit_Main_Icon:before {
+  content: "\e937";
+}
+.suit-icon-flap_with_flap_ticket_pocket:before {
+  content: "\e938";
+}
+.suit-icon-flap_with_jetted_ticket_pocket:before {
+  content: "\e939";
+}
+.suit-icon-Folded_Pocket_Square:before {
+  content: "\e93a";
+}
+.suit-icon-functional3buttons:before {
+  content: "\e93b";
+}
+.suit-icon-functional4buttons:before {
+  content: "\e93c";
+}
+.suit-icon-functional5buttons:before {
+  content: "\e93d";
+}
+.suit-icon-hide-bow-01:before {
+  content: "\e93e";
+}
+.suit-icon-hide-bow---circle-01:before {
+  content: "\e93f";
+}
+.suit-icon-Hide_Jacket:before {
+  content: "\e940";
+}
+.suit-icon-Hide_Tie:before {
+  content: "\e941";
+}
+.suit-icon-Info:before {
+  content: "\e942";
+}
+.suit-icon-Inner_Lining_Main_Icon:before {
+  content: "\e943";
+}
+.suit-icon-jakcet-5-button-01:before {
+  content: "\e944";
+}
+.suit-icon-jakcet-5-button-strip-01:before {
+  content: "\e945";
+}
+.suit-icon-Jeans:before {
+  content: "\e946";
+}
+.suit-icon-jetted_pockets_satin:before {
+  content: "\e947";
+}
+.suit-icon-jetted_pockets_satin-01:before {
+  content: "\e948";
+}
+.suit-icon-jetted_with_jetted_coin-_pocket:before {
+  content: "\e949";
+}
+.suit-icon-kissing3buttons:before {
+  content: "\e94a";
+}
+.suit-icon-kissing4buttons:before {
+  content: "\e94b";
+}
+.suit-icon-kissing5buttons:before {
+  content: "\e94c";
+}
+.suit-icon-Lapel:before {
+  content: "\e94d";
+}
+.suit-icon-Lapel_Main_Icon:before {
+  content: "\e94e";
+}
+.suit-icon-Lapel---Notch-full-satin-01:before {
+  content: "\e94f";
+}
+.suit-icon-lapel-notch-lower-satin-suit-01:before {
+  content: "\e950";
+}
+.suit-icon-Lapel---Notch-strip-01:before {
+  content: "\e951";
+}
+.suit-icon-lapel-notch-upper-satin-suit-01:before {
+  content: "\e952";
+}
+.suit-icon-lapel-peak-lower-satin-suit-01:before {
+  content: "\e953";
+}
+.suit-icon-Lapel---Peak-strip-01:before {
+  content: "\e954";
+}
+.suit-icon-lapel-peak-upper-satin-suit-01:before {
+  content: "\e955";
+}
+.suit-icon-Lapel---shawl-strip-01:before {
+  content: "\e956";
+}
+.suit-icon-Large_Fit:before {
+  content: "\e957";
+}
+.suit-icon-Limited_Edition:before {
+  content: "\e958";
+}
+.suit-icon-Main_Style_Icon:before {
+  content: "\e959";
+}
+.suit-icon-Mandarin:before {
+  content: "\e95a";
+}
+.suit-icon-Mandarin---8button-01:before {
+  content: "\e95b";
+}
+.suit-icon-Manequinn_Hide:before {
+  content: "\e95c";
+}
+.suit-icon-Manequinn_Show:before {
+  content: "\e95d";
+}
+.suit-icon-minus-01:before {
+  content: "\e95e";
+}
+.suit-icon-Monogram_Main:before {
+  content: "\e95f";
+}
+.suit-icon-MonoPocket:before {
+  content: "\e960";
+}
+.suit-icon-New:before {
+  content: "\e961";
+}
+.suit-icon-No:before {
+  content: "\e962";
+}
+.suit-icon-No_buttoned:before {
+  content: "\e963";
+}
+.suit-icon-No_Elbow_Patch:before {
+  content: "\e964";
+}
+.suit-icon-No_filter:before {
+  content: "\e965";
+}
+.suit-icon-no_holes:before {
+  content: "\e966";
+}
+.suit-icon-No_Pick_Stitch:before {
+  content: "\e967";
+}
+.suit-icon-No_Pockets:before {
+  content: "\e968";
+}
+.suit-icon-No_Pocket_Square:before {
+  content: "\e969";
+}
+.suit-icon-No_Slanted_Pockets:before {
+  content: "\e96a";
+}
+.suit-icon-Notch:before {
+  content: "\e96b";
+}
+.suit-icon-Notched-lower-satin-01:before {
+  content: "\e96c";
+}
+.suit-icon-Notched-satin-full-01:before {
+  content: "\e96d";
+}
+.suit-icon-Notched-upper-satin-01:before {
+  content: "\e96e";
+}
+.suit-icon-Notch_FullSatin:before {
+  content: "\e96f";
+}
+.suit-icon-Notch_lowersatin:before {
+  content: "\e970";
+}
+.suit-icon-Notch_satincollar:before {
+  content: "\e971";
+}
+.suit-icon-No_vest:before {
+  content: "\e972";
+}
+.suit-icon-Pant:before {
+  content: "\e973";
+}
+.suit-icon-Pant_Centered:before {
+  content: "\e974";
+}
+.suit-icon-Pant_Cuff_Main_Icon:before {
+  content: "\e975";
+}
+.suit-icon-double-pocket-01:before {
+  content: "\e976";
+}
+.suit-icon-Pant_Diagonal_Pocket:before {
+  content: "\e977";
+}
+.suit-icon-Pant_Displaced:before {
+  content: "\e978";
+}
+.suit-icon-single-pocket:before {
+  content: "\e979";
+}
+.suit-icon-Pant_Double_Pleats:before {
+  content: "\e97a";
+}
+.suit-icon-Pant_Double_Welted_Pocket_With_Button:before {
+  content: "\e97b";
+}
+.suit-icon-Pant_Double_Welted_Pocket_With_Button_x2:before {
+  content: "\e97c";
+}
+.suit-icon-single-pocket-01:before {
+  content: "\e97d";
+}
+.suit-icon-Pant_Fastening_Main_Icon:before {
+  content: "\e97e";
+}
+.suit-icon-Pant_fastening_none-01:before {
+  content: "\e97f";
+}
+.suit-icon-Pant_Fit_Main_Icon:before {
+  content: "\e980";
+}
+.suit-icon-Pant_Flap_Pocket:before {
+  content: "\e981";
+}
+.suit-icon-single-pocket-012:before {
+  content: "\e982";
+}
+.suit-icon-Pant_Flap_Pocket_x2:before {
+  content: "\e983";
+}
+.suit-icon-Pant_No_Button:before {
+  content: "\e984";
+}
+.suit-icon-Pant_No_Pant_Cuffs:before {
+  content: "\e985";
+}
+.suit-icon-Pant_No_Pocket:before {
+  content: "\e986";
+}
+.suit-icon-Pant_Off_Centered_Buttonless:before {
+  content: "\e987";
+}
+.suit-icon-Pant_Patched:before {
+  content: "\e988";
+}
+.suit-icon-Pant_Patched_x2:before {
+  content: "\e989";
+}
+.suit-icon-Pant_Pleated:before {
+  content: "\e98a";
+}
+.suit-icon-Pant_Pleats_Main_Icon:before {
+  content: "\e98b";
+}
+.suit-icon-Pant_Pockets_Main_Icon:before {
+  content: "\e98c";
+}
+.suit-icon-Pant_Regular_Fit:before {
+  content: "\e98d";
+}
+.suit-icon-Pant_Rounded_Pocket:before {
+  content: "\e98e";
+}
+.suit-icon-Pant_Slim_Fit:before {
+  content: "\e98f";
+}
+.suit-icon-Pant_Vertical_Pocket:before {
+  content: "\e990";
+}
+.suit-icon-Patched:before {
+  content: "\e991";
+}
+.suit-icon-Patch_Pocket:before {
+  content: "\e992";
+}
+.suit-icon-Peak:before {
+  content: "\e993";
+}
+.suit-icon-Peak_FullSatin:before {
+  content: "\e994";
+}
+.suit-icon-Peak_lowersatin:before {
+  content: "\e995";
+}
+.suit-icon-Peak-satinf-full-lower-01:before {
+  content: "\e996";
+}
+.suit-icon-Peak-satin-full-01:before {
+  content: "\e997";
+}
+.suit-icon-Peak-satin-full-upper-01:before {
+  content: "\e998";
+}
+.suit-icon-Peak_uppersatin:before {
+  content: "\e999";
+}
+.suit-icon-Pick_Stitch_Main_Icon:before {
+  content: "\e99a";
+}
+.suit-icon-Piece_Suit:before {
+  content: "\e99b";
+}
+.suit-icon-Plain_Pocket_Square:before {
+  content: "\e99c";
+}
+.suit-icon-Plus:before {
+  content: "\e99d";
+}
+.suit-icon-Pockets_Main_Icon:before {
+  content: "\e99e";
+}
+.suit-icon-Pocket_Square_Main_Icon:before {
+  content: "\e99f";
+}
+.suit-icon-pompoz_tie-01_style3:before {
+  content: "\e9a0";
+}
+.suit-icon-Premium:before {
+  content: "\e9a1";
+}
+.suit-icon-Quilted_Lining:before {
+  content: "\e9a2";
+}
+.suit-icon-Regular:before {
+  content: "\e9a3";
+}
+.suit-icon-rose-tie-01_style4:before {
+  content: "\e9a4";
+}
+.suit-icon-Same_Fabrics:before {
+  content: "\e9a5";
+}
+.suit-icon-sati-jettedpockets:before {
+  content: "\e9a6";
+}
+.suit-icon-SatinBreastPocket:before {
+  content: "\e9a7";
+}
+.suit-icon-Shawl:before {
+  content: "\e9a8";
+}
+.suit-icon-Shawl_FullSatin:before {
+  content: "\e9a9";
+}
+.suit-icon-shawl-satin-full-01:before {
+  content: "\e9aa";
+}
+.suit-icon-Show_Jacket:before {
+  content: "\e9ab";
+}
+.suit-icon-Show_Tie:before {
+  content: "\e9ac";
+}
+.suit-icon-Side_Vents:before {
+  content: "\e9ad";
+}
+.suit-icon-Single_Breasted_1_Button:before {
+  content: "\e9ae";
+}
+.suit-icon-Single_Breasted_2_Button:before {
+  content: "\e9af";
+}
+.suit-icon-Single_Breasted_3_Button:before {
+  content: "\e9b0";
+}
+.suit-icon-Sleeve_Main_Icon:before {
+  content: "\e9b1";
+}
+.suit-icon-Slim_Fit:before {
+  content: "\e9b2";
+}
+.suit-icon-Slim_Lapel:before {
+  content: "\e9b3";
+}
+.suit-icon-Standard:before {
+  content: "\e9b4";
+}
+.suit-icon-Sven-Single-Breasted-jacket-01:before {
+  content: "\e9b5";
+}
+.suit-icon-Sven-Single-Breasted-jacket-01-01:before {
+  content: "\e9b6";
+}
+.suit-icon-Thread:before {
+  content: "\e9b7";
+}
+.suit-icon-Understructures:before {
+  content: "\e9b8";
+}
+.suit-icon-Up:before {
+  content: "\e9b9";
+}
+.suit-icon-u-shape-vest-01:before {
+  content: "\e9ba";
+}
+.suit-icon-u-shape-vest-01-01:before {
+  content: "\e9bb";
+}
+.suit-icon-u-shape-vest-01-01-01:before {
+  content: "\e9bc";
+}
+.suit-icon-u-shape-vest-03-button-01:before {
+  content: "\e9bd";
+}
+.suit-icon-u-shape-vest-04-button-01:before {
+  content: "\e9be";
+}
+.suit-icon-Ventless:before {
+  content: "\e9bf";
+}
+.suit-icon-Vents_Main_Icon:before {
+  content: "\e9c0";
+}
+.suit-icon-Vest:before {
+  content: "\e9c1";
+}
+.suit-icon-Vest_Breast_Pocket_Main_Icon:before {
+  content: "\e9c2";
+}
+.suit-icon-Vest_Breast_Pocket_No:before {
+  content: "\e9c3";
+}
+.suit-icon-Vest_Breast_Pocket_Yes:before {
+  content: "\e9c4";
+}
+.suit-icon-Vest_Brest_Jetted-pocket:before {
+  content: "\e9c5";
+}
+.suit-icon-Vest_Diagonal:before {
+  content: "\e9c6";
+}
+.suit-icon-Vest_Double_breasted:before {
+  content: "\e9c7";
+}
+.suit-icon-Vest_Double_breasted_6_buttons:before {
+  content: "\e9c8";
+}
+.suit-icon-Vest_Double_breasted_6_buttons_updated-01:before {
+  content: "\e9c9";
+}
+.suit-icon-Vest_Edge_Main_Icon:before {
+  content: "\e9ca";
+}
+.suit-icon-Vest_Lapel_Main_Icon:before {
+  content: "\e9cb";
+}
+.suit-icon-Vest_Notched:before {
+  content: "\e9cc";
+}
+.suit-icon-Vest_Notched_full_satin:before {
+  content: "\e9cd";
+}
+.suit-icon-Vest_Notched_lower_satin:before {
+  content: "\e9ce";
+}
+.suit-icon-Vest_Notched_upper_satin:before {
+  content: "\e9cf";
+}
+.suit-icon-Vest_Peak:before {
+  content: "\e9d0";
+}
+.suit-icon-Vest_Peak_full_satin:before {
+  content: "\e9d1";
+}
+.suit-icon-Vest_Peak_lower_satin:before {
+  content: "\e9d2";
+}
+.suit-icon-Vest_Peak_upper_satin:before {
+  content: "\e9d3";
+}
+.suit-icon-Vest_Rounded:before {
+  content: "\e9d4";
+}
+.suit-icon-Vest_shawl:before {
+  content: "\e9d5";
+}
+.suit-icon-Vest_shawl_full_satin:before {
+  content: "\e9d6";
+}
+.suit-icon-Vest_Single_breasted:before {
+  content: "\e9d7";
+}
+.suit-icon-Vest_Single_breasted_4_buttons:before {
+  content: "\e9d8";
+}
+.suit-icon-Vest_Single_breasted_5_buttons:before {
+  content: "\e9d9";
+}
+.suit-icon-Vest_Single_Breasted_6_buttons:before {
+  content: "\e9da";
+}
+.suit-icon-Vest_Straight:before {
+  content: "\e9db";
+}
+.suit-icon-Vest_style_main:before {
+  content: "\e9dc";
+}
+.suit-icon-Vest_u_shape:before {
+  content: "\e9dd";
+}
+.suit-icon-Vest_v_shape:before {
+  content: "\e9de";
+}
+.suit-icon-uniE9D9:before {
+  content: "\e9df";
+}
+.suit-icon-uniE9DA:before {
+  content: "\e9e0";
+}
+.suit-icon-uniE9DB:before {
+  content: "\e9e1";
+}
+.suit-icon-uniE9DC:before {
+  content: "\e9e2";
+}
+.suit-icon-uniE9DD:before {
+  content: "\e9e3";
+}
+.suit-icon-uniE9DE:before {
+  content: "\e9e4";
+}
+.suit-icon-uniE9DF:before {
+  content: "\e9e5";
+}
+.suit-icon-uniE9E0:before {
+  content: "\e9e6";
+}
+.suit-icon-uniE9E1:before {
+  content: "\e9e7";
+}
+.suit-icon-uniE9E2:before {
+  content: "\e9e8";
+}
+.suit-icon-uniE9E3:before {
+  content: "\e9e9";
+}
+.suit-icon-uniE9E4:before {
+  content: "\e9ea";
+}
+.suit-icon-v-shape-vest-02:before {
+  content: "\e9eb";
+}
+.suit-icon-wedding-suit-one-button-01:before {
+  content: "\e9ec";
+}
+.suit-icon-Welted_Pocket:before {
+  content: "\e9ed";
+}
+.suit-icon-Wide:before {
+  content: "\e9ee";
+}
+.suit-icon-Winter:before {
+  content: "\e9ef";
+}
+.suit-icon-with_button_holes:before {
+  content: "\e9f0";
+}
+.suit-icon-With_Elbow_Patch:before {
+  content: "\e9f1";
+}
+.suit-icon-With_Flap:before {
+  content: "\e9f2";
+}
+.suit-icon-With_Flap_Slanted:before {
+  content: "\e9f3";
+}
+.suit-icon-Without_Lapels:before {
+  content: "\e9f4";
+}
+.suit-icon-With_Pant_Cuffs:before {
+  content: "\e9f5";
+}
+.suit-icon-With_Pick_Stitch:before {
+  content: "\e9f6";
+}
+.suit-icon-Woolmark:before {
+  content: "\e9f7";
+}
+.suit-icon-working3buttons:before {
+  content: "\e9f8";
+}
+.suit-icon-working4buttons:before {
+  content: "\e9f9";
+}
+.suit-icon-All4:before {
+  content: "\e9fa";
+}
+.suit-icon-working5buttons:before {
+  content: "\e9fb";
+}
+.suit-icon-Wrinkle_free_merged:before {
+  content: "\e9fc";
+}
+.suit-icon-Yes:before {
+  content: "\e9fd";
+}
+.suit-icon-Zoom_In:before {
+  content: "\e9fe";
+}
+.suit-icon-Zoom_out:before {
+  content: "\e9ff";
+}
