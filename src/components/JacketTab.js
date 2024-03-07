@@ -203,7 +203,7 @@ const JacketTab = ({choice, setChoice}) => {
                       </div>
                       <div className="block__body">
                         <ul className="custom-radio-list custom-radio-list--design">
-                          <li>
+                          <li onClick={() => setChoice((choice) => ({ ...choice, jacket: { ...choice.jacket, pockets: "regular_flap_pockets"}}))}>
                             <div className="custom-radio-input-wrap custom-radio-input-wrap--design">
                               <input type="radio" name="custom_form_jacket_pocket" defaultValue="Regular Flap Pockets" id="jacket_pocket_style_1" defaultChecked />
                               <label htmlFor="jacket_pocket_style_1">
@@ -216,7 +216,8 @@ const JacketTab = ({choice, setChoice}) => {
                               </label>
                             </div>
                           </li>
-                          <li>
+                          
+                          <li onClick={() => setChoice((choice) => ({ ...choice, jacket: { ...choice.jacket, pockets: "double_welted_pockets" } }))}>
                             <div className="custom-radio-input-wrap custom-radio-input-wrap--design">
                               <input type="radio" name="custom_form_jacket_pocket" defaultValue="Double Welted Pockets" id="jacket_pocket_style_2" />
                               <label htmlFor="jacket_pocket_style_2">
@@ -229,7 +230,8 @@ const JacketTab = ({choice, setChoice}) => {
                               </label>
                             </div>
                           </li>
-                          <li>
+                          
+                          <li onClick={() => setChoice((choice) => ({ ...choice, jacket: { ...choice.jacket, pockets: "patch_pockets" } }))}>
                             <div className="custom-radio-input-wrap custom-radio-input-wrap--design">
                               <input type="radio" name="custom_form_jacket_pocket" defaultValue="Patch Pockets" id="jacket_pocket_style_3" />
                               <label htmlFor="jacket_pocket_style_3">

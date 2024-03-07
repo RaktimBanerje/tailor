@@ -26,11 +26,42 @@ const App = () => {
     jacket: {
       fit: "smart_fit",
       style: "single_breasted",
-      lapel: "notch"
+      lapel: "notch",
+      pockets: "regular_flap_pockets"
     },
     pant: {
       fit: "slim_fit",
-      pleats: "no_pleat"
+      pleats: "no_pleat",
+      fastening: "centered"
+    },
+    mesurement: {
+      custom_form_measurement_coat_length: "",
+      custom_form_measurement_coat_chest: "",
+      custom_form_measurement_coat_waist: "",
+      custom_form_measurement_coat_hips: "",
+      custom_form_measurement_coat_shoulders: "",
+      custom_form_measurement_coat_sleeve: "",
+      custom_form_measurement_coat_neck_front: "",
+      custom_form_measurement_coat_neck_back: "",
+      custom_form_measurement_coat_neck_vest: "",
+      custom_form_measurement_coat_neck_t_coat: "",
+      custom_form_measurement_coat_pant_waist: "",
+      custom_form_measurement_coat_pant_hips: "",
+      custom_form_measurement_coat_pant_in_length: "",
+      custom_form_measurement_coat_pant_length: "",
+      custom_form_measurement_coat_pant_thighs: "",
+      custom_form_measurement_coat_pant_knees: "",
+      custom_form_measurement_coat_pant_bottom: "",
+      custom_form_measurement_shirt_length: "",
+      custom_form_measurement_shirt_chest: "",
+      custom_form_measurement_shirt_waist: "",
+      custom_form_measurement_shirt_hips: "",
+      custom_form_measurement_shirt_shoulders: "",
+      custom_form_measurement_shirt_s_sleeve: "",
+      custom_form_measurement_shirt_l_sleeve: "",
+      custom_form_measurement_shirt_cuffs: "",
+      custom_form_measurement_shirt_front_panel: "",
+      custom_form_measurement_shirt_back_panel: ""
     }
   })
 
@@ -65,15 +96,15 @@ const App = () => {
                 </ul>
                 <div className="tab-content">
                   {/* Fabric Design Tab Pane  */}
-                  <FabricTab        data={records} choice={choice} setChoice={setChoice} selectedItem={selectedItem} setSelectedItem={setSelectedItem} />
+                  <FabricTab tab={tab} data={records} choice={choice} setChoice={setChoice} selectedItem={selectedItem} setSelectedItem={setSelectedItem} />
                   {/* Jacket Design Tab Pane  */}
-                  <JacketTab        data={records} choice={choice} setChoice={setChoice} selectedItem={selectedItem} setSelectedItem={setSelectedItem} />
+                  <JacketTab tab={tab}       data={records} choice={choice} setChoice={setChoice} selectedItem={selectedItem} setSelectedItem={setSelectedItem} />
                   {/* Pants Design Tab Pane */}
-                  <PantTab          data={records} choice={choice} setChoice={setChoice} selectedItem={selectedItem} setSelectedItem={setSelectedItem} />
+                  <PantTab tab={tab}      data={records} choice={choice} setChoice={setChoice} selectedItem={selectedItem} setSelectedItem={setSelectedItem} />
                   {/* Measurement Tab Pane */}
-                  <MeasurementTab   data={records} choice={choice} setChoice={setChoice} selectedItem={selectedItem} setSelectedItem={setSelectedItem} />
+                  <MeasurementTab tab={tab} data={records} choice={choice} setChoice={setChoice} selectedItem={selectedItem} setSelectedItem={setSelectedItem} />
                   {/* Confirmation Tab Pane */}
-                  <ConfirmationTab  data={records} choice={choice} setChoice={setChoice} selectedItem={selectedItem} setSelectedItem={setSelectedItem} />
+                  <ConfirmationTab tab={tab} data={records} choice={choice} setChoice={setChoice} selectedItem={selectedItem} setSelectedItem={setSelectedItem} />
                 </div>
               </form>
             </div>

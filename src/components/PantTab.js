@@ -114,7 +114,7 @@ const PantTab = ({choice, setChoice}) => {
         </div>
         <div className="block__body">
           <ul className="custom-radio-list custom-radio-list--design">
-            <li>
+            <li onClick={() => setChoice((choice) => ({ ...choice, pant: { ...choice.pant, fastening: "centered" } }))}>
               <div className="custom-radio-input-wrap custom-radio-input-wrap--design">
                 <input type="radio" name="custom_form_pant_fastening" defaultValue="Centered" id="custom_form_pant_fastening_1" defaultChecked />
                 <label htmlFor="custom_form_pant_fastening_1">
@@ -127,7 +127,7 @@ const PantTab = ({choice, setChoice}) => {
                 </label>
               </div>
             </li>
-            <li>
+            <li onClick={() => setChoice((choice) => ({ ...choice, pant: { ...choice.pant, fastening: "Off_centered" } }))}>
               <div className="custom-radio-input-wrap custom-radio-input-wrap--design">
                 <input type="radio" name="custom_form_pant_fastening" defaultValue="Off Centered" id="custom_form_pant_fastening_2" />
                 <label htmlFor="custom_form_pant_fastening_2">

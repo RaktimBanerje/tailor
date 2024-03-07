@@ -19,10 +19,17 @@ const data = [
                 "notch": "https://www.oxfordtailor.com/customize/suit/media/men/generated_suit_images/lapel/2_styletype_1_style_1_size_1_view_1.png",
                 "peak": "https://www.oxfordtailor.com/customize/suit/media/men/generated_suit_images/lapel/2_styletype_1_style_2_size_1_view_1.png",
                 "shawl": "https://www.oxfordtailor.com/customize/suit/media/men/generated_suit_images/lapel/2_styletype_1_style_3_size_1_view_1.png"
-            }
+            },
+            "pockets": {
+                "regular_flap_pockets": "https://www.oxfordtailor.com/customize/suit/media/men/generated_suit_images/vestpockets/2_style_2_view_1.png",
+                "double_welted_pockets": "https://www.oxfordtailor.com/customize/suit/media/men/generated_suit_images/vestpockets/2_style_3_view_1.png",
+                "patch_pockets": "https://www.oxfordtailor.com/customize/suit/media/men/generated_suit_images/vestpockets/2_style_4_view_1.png"
+            },
+            "sleeves": "https://www.oxfordtailor.com/customize/suit/media/men/generated_suit_images/sleeves/2_view_1.png",
+            "breastpocket": "https://www.oxfordtailor.com/customize/suit/media/men/generated_suit_images/sleeves/2_view_1.png"
         },
         "pant": {
-            "style": "https://www.oxfordtailor.com/customize/suit/media/men/generated_suit_images/pantstyle/2_style_1_view_1.pngg",
+            "style": "https://www.oxfordtailor.com/customize/suit/media/men/generated_suit_images/pantstyle/2_style_1_view_1.png",
             "fit": {
                 "slim_fit": "https://www.oxfordtailor.com/customize/suit/media/men/generated_suit_images/pantfit/style_2_view_1.png",
                 "regular_fit": "https://www.oxfordtailor.com/customize/suit/media/men/generated_suit_images/pantfit/style_1_view_1.png",
@@ -32,6 +39,10 @@ const data = [
                 "no_pleat": "https://www.oxfordtailor.com/customize/suit/media/men/generated_suit_images/pantpleats/style_6_view_1.png",
                 "one_pleat": "https://www.oxfordtailor.com/customize/suit/media/men/generated_suit_images/pantpleats/style_1_view_1.png",
                 "two_pleats": "https://www.oxfordtailor.com/customize/suit/media/men/generated_suit_images/pantpleats/style_2_view_1.png"
+            },
+            "fastening": {
+                "centered": "https://www.oxfordtailor.com/customize/suit/media/men/generated_suit_images/fastening/style_1_view_1.png",
+                "Off_centered": "https://www.oxfordtailor.com/customize/suit/media/men/generated_suit_images/fastening/style_2_view_1.png"
             }
         }
     },
@@ -55,7 +66,14 @@ const data = [
                 "notch": "https://www.oxfordtailor.com/customize/suit/media/men/generated_suit_images/lapel/53_styletype_1_style_1_size_1_view_1.png",
                 "peak": "https://www.oxfordtailor.com/customize/suit/media/men/generated_suit_images/lapel/53_styletype_1_style_2_size_1_view_1.png",
                 "shawl": "https://www.oxfordtailor.com/customize/suit/media/men/generated_suit_images/lapel/53_styletype_1_style_3_size_1_view_1.png"
-            }
+            },
+            "pockets": {
+                "regular_flap_pockets": "https://www.oxfordtailor.com/customize/suit/media/men/generated_suit_images/vestpockets/53_style_2_view_1.png",
+                "double_welted_pockets": "https://www.oxfordtailor.com/customize/suit/media/men/generated_suit_images/vestpockets/53_style_3_view_1.png",
+                "patch_pockets": "https://www.oxfordtailor.com/customize/suit/media/men/generated_suit_images/vestpockets/53_style_4_view_1.png"
+            },
+            "sleeves": "https://www.oxfordtailor.com/customize/suit/media/men/generated_suit_images/sleeves/53_view_1.png",
+            "breastpocket": "https://www.oxfordtailor.com/customize/suit/media/men/generated_suit_images/sleeves/53_view_1.png"
         },
         "pant": {
             "style": "https://www.oxfordtailor.com/customize/suit/media/men/generated_suit_images/pantstyle/53_style_1_view_1.png",
@@ -68,6 +86,10 @@ const data = [
                 "no_pleat": "https://www.oxfordtailor.com/customize/suit/media/men/generated_suit_images/pantpleats/style_6_view_1.png",
                 "one_pleat": "https://www.oxfordtailor.com/customize/suit/media/men/generated_suit_images/pantpleats/style_1_view_1.png",
                 "two_pleats": "https://www.oxfordtailor.com/customize/suit/media/men/generated_suit_images/pantpleats/style_2_view_1.png"
+            },
+            "fastening": {
+                "centered": "https://www.oxfordtailor.com/customize/suit/media/men/generated_suit_images/fastening/style_1_view_1.png",
+                "Off_centered": "https://www.oxfordtailor.com/customize/suit/media/men/generated_suit_images/fastening/style_2_view_1.png"
             }
         }
     }
