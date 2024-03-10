@@ -26,13 +26,20 @@ const App = () => {
     jacket: {
       fit: "smart_fit",
       style: "single_breasted",
+      backStyle: "single_breasted",
       lapel: "notch",
-      pockets: "regular_flap_pockets"
+      pockets: "regular_flap_pockets",
+      sleeve_buttons: "two_buttons",
+      buttons: "one_button",
+      vents: "center_vent"
     },
     pant: {
       fit: "slim_fit",
       pleats: "no_pleat",
-      fastening: "centered"
+      fastening: "centered",
+      pantpockets: "no_pocket",
+      cuffs: "with_cuffs",
+      backpockets: "one_pocket"
     },
     mesurement: {
       custom_form_measurement_coat_length: "",
@@ -96,15 +103,15 @@ const App = () => {
                 </ul>
                 <div className="tab-content">
                   {/* Fabric Design Tab Pane  */}
-                  <FabricTab tab={tab} data={records} choice={choice} setChoice={setChoice} selectedItem={selectedItem} setSelectedItem={setSelectedItem} />
+                  <FabricTab tab={tab} view={view} setView={setView} data={records} choice={choice} setChoice={setChoice} selectedItem={selectedItem} setSelectedItem={setSelectedItem} />
                   {/* Jacket Design Tab Pane  */}
-                  <JacketTab tab={tab}       data={records} choice={choice} setChoice={setChoice} selectedItem={selectedItem} setSelectedItem={setSelectedItem} />
+                  <JacketTab tab={tab} view={view} setView={setView} data={records} choice={choice} setChoice={setChoice} selectedItem={selectedItem} setSelectedItem={setSelectedItem} />
                   {/* Pants Design Tab Pane */}
-                  <PantTab tab={tab}      data={records} choice={choice} setChoice={setChoice} selectedItem={selectedItem} setSelectedItem={setSelectedItem} />
+                  <PantTab tab={tab} view={view} setView={setView}  data={records} choice={choice} setChoice={setChoice} selectedItem={selectedItem} setSelectedItem={setSelectedItem} />
                   {/* Measurement Tab Pane */}
-                  <MeasurementTab tab={tab} data={records} choice={choice} setChoice={setChoice} selectedItem={selectedItem} setSelectedItem={setSelectedItem} />
+                  <MeasurementTab tab={tab} view={view} setView={setView} data={records} choice={choice} setChoice={setChoice} selectedItem={selectedItem} setSelectedItem={setSelectedItem} />
                   {/* Confirmation Tab Pane */}
-                  <ConfirmationTab tab={tab} data={records} choice={choice} setChoice={setChoice} selectedItem={selectedItem} setSelectedItem={setSelectedItem} />
+                  <ConfirmationTab tab={tab} view={view} setView={setView} data={records} choice={choice} setChoice={setChoice} selectedItem={selectedItem} setSelectedItem={setSelectedItem} />
                 </div>
               </form>
             </div>
@@ -116,9 +123,9 @@ const App = () => {
               <li></li>
             </ul> */}
               <div id="mainImageHolder">
-                <FrontView  isActive={view == "FRONT"}  data={records} choice={choice} setChoice={setChoice} selectedItem={selectedItem} setSelectedItem={setSelectedItem} />
-                <BackView   isActive={view == "BACK"}   data={records} choice={choice} setChoice={setChoice} selectedItem={selectedItem} setSelectedItem={setSelectedItem}  />
-                <InsideView isActive={view == "INSIDE"} data={records} choice={choice} setChoice={setChoice} selectedItem={selectedItem} setSelectedItem={setSelectedItem}  />
+                <FrontView  tab={tab} isActive={view == "FRONT"}  data={records} choice={choice} setChoice={setChoice} selectedItem={selectedItem} setSelectedItem={setSelectedItem} />
+                <BackView   tab={tab} isActive={view == "BACK"}   data={records} choice={choice} setChoice={setChoice} selectedItem={selectedItem} setSelectedItem={setSelectedItem}  />
+                <InsideView tab={tab} isActive={view == "INSIDE"} data={records} choice={choice} setChoice={setChoice} selectedItem={selectedItem} setSelectedItem={setSelectedItem}  />
               
                 <div className="loader-wrap">
                   <div className="loader-wrap__inner">

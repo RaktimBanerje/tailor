@@ -1,6 +1,6 @@
 import React from 'react'
 
-const JacketTab = ({choice, setChoice}) => {
+const JacketTab = ({view, setView, choice, setChoice}) => {
   return (
     <div className="tab-pane" id="t2" role="tabpanel" aria-labelledby="t2-tab">
                     {/* Fit */}
@@ -12,7 +12,10 @@ const JacketTab = ({choice, setChoice}) => {
                       </div>
                       <div className="block__body">
                         <ul className="custom-radio-list custom-radio-list--design">
-                          <li onClick={() => setChoice((choice)=> ({...choice, jacket: {...choice.jacket, fit: "slim_fit"}}))}>
+                          <li onClick={() => {
+                            setChoice((choice)=> ({...choice, jacket: {...choice.jacket, fit: "slim_fit"}}))
+                            setView("FRONT")
+                          }}>
                             <div className="custom-radio-input-wrap custom-radio-input-wrap--design">
                               <input type="radio" name="custom_form_jacket_fit" defaultValue="Slim Fit" id="custom_form_jacket_fit_1" defaultChecked />
                               <label htmlFor="custom_form_jacket_fit_1">
@@ -25,7 +28,10 @@ const JacketTab = ({choice, setChoice}) => {
                               </label>
                             </div>
                           </li>
-                          <li onClick={() => setChoice((choice)=> ({...choice, jacket: {...choice.jacket, fit: "classic_fit"}}))}>
+                          <li onClick={() => {
+                            setChoice((choice)=> ({...choice, jacket: {...choice.jacket, fit: "classic_fit"}}))
+                            setView("FRONT")
+                          }}>
                             <div className="custom-radio-input-wrap custom-radio-input-wrap--design">
                               <input type="radio" name="custom_form_jacket_fit" defaultValue="Classic Fit" id="custom_form_jacket_fit_2" />
                               <label htmlFor="custom_form_jacket_fit_2">
@@ -50,7 +56,10 @@ const JacketTab = ({choice, setChoice}) => {
                       </div>
                       <div className="block__body">
                         <ul className="custom-radio-list custom-radio-list--design">
-                          <li onClick={() => setChoice((choice)=> ({...choice, jacket: {...choice.jacket, style: "single_breasted"}}))}>
+                          <li onClick={() => {
+                            setChoice((choice)=> ({...choice, jacket: {...choice.jacket, style: "single_breasted"}}))
+                            setView("FRONT")
+                          }}>
                             <div className="custom-radio-input-wrap custom-radio-input-wrap--design">
                               <input type="radio" name="custom_form_jacket_style" defaultValue="Single breasted" id="custom_form_jacket_style_1" defaultChecked />
                               <label htmlFor="custom_form_jacket_style_1">
@@ -63,7 +72,10 @@ const JacketTab = ({choice, setChoice}) => {
                               </label>
                             </div>
                           </li>
-                          <li onClick={() => setChoice((choice)=> ({...choice, jacket: {...choice.jacket, style: "double_breasted"}}))}>
+                          <li onClick={() => {
+                            setChoice((choice)=> ({...choice, jacket: {...choice.jacket, style: "double_breasted"}}))
+                            setView("FRONT")
+                          }}>
                             <div className="custom-radio-input-wrap custom-radio-input-wrap--design">
                               <input type="radio" name="custom_form_jacket_style" defaultValue="Double Breasted" id="custom_form_jacket_style_2" />
                               <label htmlFor="custom_form_jacket_style_2">
@@ -76,7 +88,10 @@ const JacketTab = ({choice, setChoice}) => {
                               </label>
                             </div>
                           </li>
-                          <li onClick={() => setChoice((choice)=> ({...choice, jacket: {...choice.jacket, style: "mandarin"}}))}>
+                          <li onClick={() => {
+                            setChoice((choice)=> ({...choice, jacket: {...choice.jacket, style: "mandarin"}}))
+                            setView("FRONT")
+                          }}>
                             <div className="custom-radio-input-wrap custom-radio-input-wrap--design">
                               <input type="radio" name="custom_form_jacket_style" defaultValue="Mandarin" id="custom_form_jacket_style_3" />
                               <label htmlFor="custom_form_jacket_style_3">
@@ -101,7 +116,10 @@ const JacketTab = ({choice, setChoice}) => {
                       </div>
                       <div className="block__body">
                         <ul className="custom-radio-list custom-radio-list--design">
-                          <li onClick={() => setChoice((choice)=> ({...choice, jacket: {...choice.jacket, lapel: "notch"}}))}>
+                          <li onClick={() => {
+                            setChoice((choice)=> ({...choice, jacket: {...choice.jacket, lapel: "notch"}}))
+                            setView("FRONT")
+                          }}>
                             <div className="custom-radio-input-wrap custom-radio-input-wrap--design">
                               <input type="radio" name="custom_form_jacket_lapel" defaultValue="Notch" id="custom_form_jacket_lapel_1" defaultChecked />
                               <label htmlFor="custom_form_jacket_lapel_1">
@@ -114,7 +132,10 @@ const JacketTab = ({choice, setChoice}) => {
                               </label>
                             </div>
                           </li>
-                          <li onClick={() => setChoice((choice)=> ({...choice, jacket: {...choice.jacket, lapel: "peak"}}))}>
+                          <li onClick={() => {
+                            setChoice((choice)=> ({...choice, jacket: {...choice.jacket, lapel: "peak"}}))
+                            setView("FRONT")
+                          }}>
                             <div className="custom-radio-input-wrap custom-radio-input-wrap--design">
                               <input type="radio" name="custom_form_jacket_lapel" defaultValue="Peak" id="custom_form_jacket_lapel_2" />
                               <label htmlFor="custom_form_jacket_lapel_2">
@@ -127,7 +148,10 @@ const JacketTab = ({choice, setChoice}) => {
                               </label>
                             </div>
                           </li>
-                          <li onClick={() => setChoice((choice)=> ({...choice, jacket: {...choice.jacket, lapel: "shawl"}}))}>
+                          <li onClick={() => {
+                            setChoice((choice)=> ({...choice, jacket: {...choice.jacket, lapel: "shawl"}}))
+                            setView("FRONT")
+                          }}>
                             <div className="custom-radio-input-wrap custom-radio-input-wrap--design">
                               <input type="radio" name="custom_form_jacket_lapel" defaultValue="Shawl" id="custom_form_jacket_lapel_3" />
                               <label htmlFor="custom_form_jacket_lapel_3">
@@ -203,7 +227,10 @@ const JacketTab = ({choice, setChoice}) => {
                       </div>
                       <div className="block__body">
                         <ul className="custom-radio-list custom-radio-list--design">
-                          <li onClick={() => setChoice((choice) => ({ ...choice, jacket: { ...choice.jacket, pockets: "regular_flap_pockets"}}))}>
+                          <li onClick={() => {
+                            setChoice((choice) => ({ ...choice, jacket: { ...choice.jacket, pockets: "regular_flap_pockets"}}))
+                            setView("FRONT")
+                          }}>
                             <div className="custom-radio-input-wrap custom-radio-input-wrap--design">
                               <input type="radio" name="custom_form_jacket_pocket" defaultValue="Regular Flap Pockets" id="jacket_pocket_style_1" defaultChecked />
                               <label htmlFor="jacket_pocket_style_1">
@@ -217,7 +244,10 @@ const JacketTab = ({choice, setChoice}) => {
                             </div>
                           </li>
                           
-                          <li onClick={() => setChoice((choice) => ({ ...choice, jacket: { ...choice.jacket, pockets: "double_welted_pockets" } }))}>
+                          <li onClick={() => {
+                            setChoice((choice) => ({ ...choice, jacket: { ...choice.jacket, pockets: "double_welted_pockets" } }))
+                            setView("FRONT")
+                          }}>
                             <div className="custom-radio-input-wrap custom-radio-input-wrap--design">
                               <input type="radio" name="custom_form_jacket_pocket" defaultValue="Double Welted Pockets" id="jacket_pocket_style_2" />
                               <label htmlFor="jacket_pocket_style_2">
@@ -231,7 +261,10 @@ const JacketTab = ({choice, setChoice}) => {
                             </div>
                           </li>
                           
-                          <li onClick={() => setChoice((choice) => ({ ...choice, jacket: { ...choice.jacket, pockets: "patch_pockets" } }))}>
+                          <li onClick={() => {
+                            setChoice((choice) => ({ ...choice, jacket: { ...choice.jacket, pockets: "patch_pockets" } }))
+                            setView("FRONT")
+                          }}>
                             <div className="custom-radio-input-wrap custom-radio-input-wrap--design">
                               <input type="radio" name="custom_form_jacket_pocket" defaultValue="Patch Pockets" id="jacket_pocket_style_3" />
                               <label htmlFor="jacket_pocket_style_3">
@@ -256,7 +289,10 @@ const JacketTab = ({choice, setChoice}) => {
                       </div>
                       <div className="block__body">
                         <ul className="custom-radio-list custom-radio-list--design">
-                          <li>
+                          <li onClick={() => { 
+                            setChoice((choice) => ({ ...choice, jacket: { ...choice.jacket, sleeve_buttons: "two_buttons" } })) 
+                            setView("BACK")
+                          }}>
                             <div className="custom-radio-input-wrap custom-radio-input-wrap--design">
                               <input type="radio" name="custom_form_jacket_sleeve_button" defaultValue="2 Buttons" id="custom_form_jacket_sleeve_button_1" />
                               <label htmlFor="custom_form_jacket_sleeve_button_1">
@@ -269,7 +305,10 @@ const JacketTab = ({choice, setChoice}) => {
                               </label>
                             </div>
                           </li>
-                          <li>
+                          <li onClick={() => { 
+                            setChoice((choice) => ({ ...choice, jacket: { ...choice.jacket, sleeve_buttons: "three_buttons" } })) 
+                            setView("BACK")
+                          }}>
                             <div className="custom-radio-input-wrap custom-radio-input-wrap--design">
                               <input type="radio" name="custom_form_jacket_sleeve_button" defaultValue="3 Buttons" id="custom_form_jacket_sleeve_button_2" />
                               <label htmlFor="custom_form_jacket_sleeve_button_2">
@@ -282,7 +321,10 @@ const JacketTab = ({choice, setChoice}) => {
                               </label>
                             </div>
                           </li>
-                          <li>
+                          <li onClick={() => { 
+                            setChoice((choice) => ({ ...choice, jacket: { ...choice.jacket, sleeve_buttons: "four_buttons" } })) 
+                            setView("BACK")
+                          }}>
                             <div className="custom-radio-input-wrap custom-radio-input-wrap--design">
                               <input type="radio" name="custom_form_jacket_sleeve_button" defaultValue="4 Buttons" id="custom_form_jacket_sleeve_button_3" defaultChecked />
                               <label htmlFor="custom_form_jacket_sleeve_button_3">
@@ -307,7 +349,10 @@ const JacketTab = ({choice, setChoice}) => {
                       </div>
                       <div className="block__body">
                         <ul className="custom-radio-list custom-radio-list--design">
-                          <li>
+                          <li onClick={() => { 
+                            setChoice((choice) => ({ ...choice, jacket: { ...choice.jacket, vents: "center_vent" } })) 
+                            setView("BACK")
+                          }}>
                             <div className="custom-radio-input-wrap custom-radio-input-wrap--design">
                               <input type="radio" name="custom_form_jacket_vents" defaultValue="Center Vent" id="custom_form_jacket_vents_1" defaultChecked />
                               <label htmlFor="custom_form_jacket_vents_1">
@@ -320,7 +365,10 @@ const JacketTab = ({choice, setChoice}) => {
                               </label>
                             </div>
                           </li>
-                          <li>
+                          <li onClick={() => { 
+                            setChoice((choice) => ({ ...choice, jacket: { ...choice.jacket, vents: "side_vent" } })) 
+                            setView("BACK")
+                          }}>
                             <div className="custom-radio-input-wrap custom-radio-input-wrap--design">
                               <input type="radio" name="custom_form_jacket_vents" defaultValue="Side Vent" id="custom_form_jacket_vents_2" />
                               <label htmlFor="custom_form_jacket_vents_2">
@@ -333,7 +381,10 @@ const JacketTab = ({choice, setChoice}) => {
                               </label>
                             </div>
                           </li>
-                          <li>
+                          <li onClick={() => { 
+                            setChoice((choice) => ({ ...choice, jacket: { ...choice.jacket, vents: "no_vent" } })) 
+                            setView("BACK")
+                          }}>
                             <div className="custom-radio-input-wrap custom-radio-input-wrap--design">
                               <input type="radio" name="custom_form_jacket_vents" defaultValue="No Vent" id="custom_form_jacket_vents_3" />
                               <label htmlFor="custom_form_jacket_vents_3">
@@ -358,7 +409,10 @@ const JacketTab = ({choice, setChoice}) => {
                       </div>
                       <div className="block__body">
                         <ul className="custom-radio-list custom-radio-list--design">
-                          <li>
+                          <li onClick={() => {
+                            setChoice((choice)=> ({...choice, jacket: {...choice.jacket, buttons: "one_button"}}))
+                            setView("FRONT")
+                          }}>
                             <div className="custom-radio-input-wrap custom-radio-input-wrap--design">
                               <input type="radio" name="custom_form_jacket_buttons" defaultValue="1 Button " id="custom_form_jacket_buttons_1" />
                               <label htmlFor="custom_form_jacket_buttons_1">
@@ -371,7 +425,10 @@ const JacketTab = ({choice, setChoice}) => {
                               </label>
                             </div>
                           </li>
-                          <li>
+                          <li onClick={() => {
+                            setChoice((choice)=> ({...choice, jacket: {...choice.jacket, buttons: "two_button"}}))
+                            setView("FRONT")
+                          }}>
                             <div className="custom-radio-input-wrap custom-radio-input-wrap--design">
                               <input type="radio" name="custom_form_jacket_buttons" defaultValue="2 Buttons" id="custom_form_jacket_buttons_2" defaultChecked />
                               <label htmlFor="custom_form_jacket_buttons_2">
@@ -384,7 +441,10 @@ const JacketTab = ({choice, setChoice}) => {
                               </label>
                             </div>
                           </li>
-                          <li>
+                          <li onClick={() => {
+                            setChoice((choice)=> ({...choice, jacket: {...choice.jacket, buttons: "three_button"}}))
+                            setView("FRONT")
+                          }}>
                             <div className="custom-radio-input-wrap custom-radio-input-wrap--design">
                               <input type="radio" name="custom_form_jacket_buttons" defaultValue="3 Buttons" id="custom_form_jacket_buttons_3" />
                               <label htmlFor="custom_form_jacket_buttons_3">
