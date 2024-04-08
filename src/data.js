@@ -48,8 +48,9 @@ const data = [
             "sleeves": "https://www.oxfordtailor.com/customize/suit/media/men/generated_suit_images/sleeves/2_view_1.png",
             "backSleeves": "https://www.oxfordtailor.com/customize/suit/media/men/generated_suit_images/sleeves/2_view_2.png",
             "breastpocket": "https://www.oxfordtailor.com/customize/suit/media/men/generated_suit_images/sleeves/2_view_1.png",
-            "backcollar": "https://www.oxfordtailor.com/customize/suit/media/men/generated_suit_images/backcollar/2_style_1_view_2.png"
-            
+            "backcollar": "https://www.oxfordtailor.com/customize/suit/media/men/generated_suit_images/backcollar/2_style_1_view_2.png",
+            "lining": "https://www.oxfordtailor.com/customize/suit/media/men/generated_suit_images/lining/fabric_2_styletype_1_view_3.png",
+            "jacketcollar": "https://www.oxfordtailor.com/customize/suit/media/men/generated_suit_images/collar/2_view_3.png"
         },
         "pant": {
             "style": "https://www.oxfordtailor.com/customize/suit/media/men/generated_suit_images/pantstyle/2_style_1_view_1.png",
@@ -81,7 +82,13 @@ const data = [
             "fastening": {
                 "centered": "https://www.oxfordtailor.com/customize/suit/media/men/generated_suit_images/fastening/style_1_view_1.png",
                 "Off_centered": "https://www.oxfordtailor.com/customize/suit/media/men/generated_suit_images/fastening/style_2_view_1.png"
-            }
+            },
+            "insideBackpockets": "https://www.oxfordtailor.com/customize/suit/media/men/generated_suit_images/backpantpocket/2_style_1_view_3.png",
+            "insideStyle": "https://www.oxfordtailor.com/customize/suit/media/men/generated_suit_images/pantstyle/2_style_1_view_3.png",
+        },
+        "vest": {
+            "vestedge": "https://www.oxfordtailor.com/customize/suit/media/men/generated_suit_images/veststyle/2_styletype_1_style_1_view_1.png",
+            "vestcollar": "https://www.oxfordtailor.com/customize/suit/media/men/generated_suit_images/vestcollar/2_view_3.png",
         }
     },
     {
@@ -133,7 +140,9 @@ const data = [
             "sleeves": "https://www.oxfordtailor.com/customize/suit/media/men/generated_suit_images/sleeves/53_view_1.png",
             "backSleeves": "https://www.oxfordtailor.com/customize/suit/media/men/generated_suit_images/sleeves/53_view_2.png",
             "breastpocket": "https://www.oxfordtailor.com/customize/suit/media/men/generated_suit_images/sleeves/53_view_1.png",
-            "backcollar": "https://www.oxfordtailor.com/customize/suit/media/men/generated_suit_images/backcollar/53_style_1_view_2.png"
+            "backcollar": "https://www.oxfordtailor.com/customize/suit/media/men/generated_suit_images/backcollar/53_style_1_view_2.png",
+            "lining": "https://www.oxfordtailor.com/customize/suit/media/men/generated_suit_images/lining/fabric_53_styletype_1_view_3.png",
+            "jacketcollar": "https://www.oxfordtailor.com/customize/suit/media/men/generated_suit_images/collar/53_view_3.png"
         },
         "pant": {
             "style": "https://www.oxfordtailor.com/customize/suit/media/men/generated_suit_images/pantstyle/53_style_1_view_1.png",
@@ -165,7 +174,13 @@ const data = [
             "fastening": {
                 "centered": "https://www.oxfordtailor.com/customize/suit/media/men/generated_suit_images/fastening/style_1_view_1.png",
                 "Off_centered": "https://www.oxfordtailor.com/customize/suit/media/men/generated_suit_images/fastening/style_2_view_1.png"
-            }
+            },
+            "insideBackpockets": "https://www.oxfordtailor.com/customize/suit/media/men/generated_suit_images/backpantpocket/53_style_1_view_3.png",
+            "insideStyle": "https://www.oxfordtailor.com/customize/suit/media/men/generated_suit_images/pantstyle/53_style_1_view_3.png",
+        },
+        "vest": {
+            "vestedge": "https://www.oxfordtailor.com/customize/suit/media/men/generated_suit_images/veststyle/53_styletype_1_style_1_view_1.png",
+            "vestcollar": "https://www.oxfordtailor.com/customize/suit/media/men/generated_suit_images/vestcollar/53_view_3.png",
         }
     }
 ]
